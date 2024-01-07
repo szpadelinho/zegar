@@ -19,15 +19,15 @@ const styles = StyleSheet.create({
         backgroundColor: "#234E0E",
         alignItems: "center",
         justifyContent: "center",
-        marginVertical: 10,
-        paddingVertical: 5,
+        marginVertical: 20,
+        paddingVertical: 10,
         borderRadius: 10
     },
 
     buttonTextColor:{
         color: "#DCEED1",
-        fontSize: 16,
-        fontWeight: 500
+        fontSize: 20,
+        fontWeight: "bold"
     }
 })
 

@@ -7,7 +7,7 @@ export default{
     "America/Chicago": "UTC-06:00",
     "America/New_York": "UTC-05:00",
     "America/Halifax": "UTC-04:00",
-    "America/Argentina/Buenos_Aires": "UTC-03:00",
+    "America/Buenos_Aires": "UTC-03:00",
     "America/Noronha": "UTC-02:00",
     "Atlantic/Azores": "UTC-01:00",
     "Europe/London": "UTC+00:00",

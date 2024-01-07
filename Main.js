@@ -34,7 +34,7 @@ const Main = ({navigation}) =>{
                 data={timeZones}
                 renderItem={({item}) => (
                     <TimeZoneItem
-                        timeZone={timeZone}
+                        timeZone={item}
                         mainTimeZone={timeZone}
                         setTimeZone={setTimeZone}
                     />
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         backgroundColor: "#212D40",
         color: "white",
-        marginVertical: 20
+        marginTop: 150,
+        marginBottom: 50
     },
 
     flatList:{
